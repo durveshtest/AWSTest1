@@ -18,6 +18,7 @@
                 <configuration>
           <includes>
             <include>AWSTest01.java</include>
+            <include>TC_Login.java</include>
           </includes>
          </configuration>
             </plugin>
