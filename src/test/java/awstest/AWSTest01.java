@@ -21,6 +21,7 @@ public class AWSTest01 {
         options.addArguments("disable-gpu");
 	options.addArguments("window-size=1920,1080");
         driver = new ChromeDriver(options);
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.google.com");
         System.out.println("Title of the page is: " + driver.getTitle());
     }
