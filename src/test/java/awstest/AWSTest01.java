@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class AWSTest01 {
 	@Test
-    public void OpenBrowser()  {
+    public void OpenBrowser() throws InterruptedException  {
         WebDriver driver;
         //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
