@@ -10,7 +10,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AWSTest01 {
+public class AWSTest01 throws InterruptedException 
+{
 	@Test
     public void OpenBrowser()  {
         WebDriver driver;
@@ -23,6 +24,7 @@ public class AWSTest01 {
         driver = new ChromeDriver(options);
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.google.com");
+	Thread.sleep(2000);
         System.out.println("Title of the page is: " + driver.getTitle());
     }
 
