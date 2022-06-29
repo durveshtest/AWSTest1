@@ -17,7 +17,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
           <includes>
-            <include>TC_Login.java</include>
+            <include>AWSTest01.java</include>
           </includes>
          </configuration>
             </plugin>
