@@ -10,8 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AWSTest01 throws InterruptedException 
-{
+public class AWSTest01 {
 	@Test
     public void OpenBrowser()  {
         WebDriver driver;
